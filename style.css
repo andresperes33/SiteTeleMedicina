@@ -16,19 +16,74 @@
 }
 
 .pricing-card {
-    transition: transform 0.3s, box-shadow 0.3s;
-    height: 100%; /* Garante que todos os cards terão a mesma altura */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    transition: transform 0.3s !important, box-shadow 0.3s !important;
+    height: 100% !important; /* Garante que todos os cards terão a mesma altura */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
 }
+
 
 .pricing-card:hover {
-    transform: translateY(-10px); /* Eleva o card ao passar o mouse */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
+    transform: translateY(-10px) !important; /* Eleva o card ao passar o mouse */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important; /* Efeito de sombra */
 }
 
-.btn-primary:hover {
-    background-color: #009e98; /* Muda a cor no hover para uma tonalidade um pouco mais escura */
-    border-color: #009e98;
+.btn-primary:hover  {
+    background-color: #009e98 !important; /* Muda a cor no hover para uma tonalidade um pouco mais escura */
+    border-color: #009e98 !important;
+}
+
+.whatsapp-btn {
+    position: fixed !important;
+    bottom: 10px !important;
+    right: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    background-color: #fff !important;
+    border-radius: 50px !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+    padding: 10px !important;
+    z-index: 1000 !important;
+}
+
+.whatsapp-btn a {
+    display: flex !important;
+    align-items: center !important;
+    text-decoration: none !important;
+}
+
+.whatsapp-text {
+    padding-right: 10px !important;
+}
+
+.whatsapp-text p {
+    font-size: 14px !important;
+    color: #333 !important;
+    margin: 0 !important;
+}
+
+.whatsapp-icon img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+/* Apenas o ícone no mobile */
+@media (max-width: 768px) {
+    .whatsapp-text {
+        display: none !important;
+    }
+
+    .whatsapp-btn {
+        padding: 10px !important;
+        background-color: transparent !important; /* Remove o fundo */
+        box-shadow: none !important; /* Remove a sombra */
+        bottom: 1px !important;
+        right: 1px !important;
+    }
+
+    .whatsapp-icon img {
+        width: 50px !important;
+        height: 50px !important;
+    }
 }
