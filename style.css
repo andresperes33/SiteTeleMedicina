@@ -16,7 +16,7 @@
 }
 
 .pricing-card {
-    transition: transform 0.3s !important, box-shadow 0.3s !important;
+    transition: transform 0.3s, box-shadow 0.3s;
     height: 100% !important; /* Garante que todos os cards terão a mesma altura */
     display: flex !important;
     flex-direction: column !important;
