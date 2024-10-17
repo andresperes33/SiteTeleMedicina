@@ -1,0 +1,4 @@
+email: contato@telemedicinamedcentersaude.com  
+
+senha: Medcenter123! 
+link para acessar o email: https://mail.hostinger.com/?_task=mail&_mbox=INBOX 
