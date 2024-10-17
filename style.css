@@ -89,3 +89,88 @@
 }
 
 
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: relative;
+}
+
+.form-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.step-number {
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 1em;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.form-description {
+    font-size: 0.9em;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group label i {
+    margin-right: 5px;
+    color: #4a4a4a;
+}
+
+.form-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #00b33c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-submit i {
+    margin-left: 5px;
+}
+
+.btn-submit:hover {
+    background-color: #00992b;
+}
